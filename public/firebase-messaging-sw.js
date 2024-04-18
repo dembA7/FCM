@@ -1,8 +1,8 @@
 importScripts("https://www.gstatic.com/firebasejs/10.11.0/firebase-app-compat.js")
 importScripts("https://www.gstatic.com/firebasejs/10.11.0/firebase-messaging-compat.js")
 
-// import { initializeApp } from 'firebase/app';
-// import { getMessaging, getToken } from 'firebase/messaging';
+import { initializeApp } from 'firebase/app';
+import { getMessaging, getToken } from 'firebase/messaging';
 
 const firebaseConfig = {
     apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
